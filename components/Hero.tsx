@@ -10,7 +10,7 @@ const Hero = () => {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
       <img className='relative rounded-full h-40 w-40 mx-auto object-scale-down'
-      src="./Technologies/avatar.png" 
+      src="./Miscellaneous/avatar.png" 
       alt=""/>
       <div className='z-20'>
         <h2 className='text-xl uppercase text-[#FFE787] pb-2 tracking-[5px]'>Morten Hagenau</h2>

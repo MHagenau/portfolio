@@ -26,7 +26,7 @@ function About({}: Props) {
         whileInView={{ 
             opacity: 1, x:0
         }}
-        src='./Technologies/avatar.png'
+        src='./Miscellaneous/avatar.png'
         className='-mb-20 md:mb-0 flex-shrink-0 w-60 h-60 rounded-full object-scale-down
                    md:rounded-full md:w-95 md:h-95 xl:rounded-full xl:w-[400px] xl:h-[400px]'/>
 
