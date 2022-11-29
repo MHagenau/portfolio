@@ -33,11 +33,9 @@ function About({}: Props) {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'> Morten <span className='underline decoration-[#FFE787]/50'>Hagenau</span></h4>
             <p className='text-base'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum.
+                An engineer of Energy Technology who thrives in an interdisciplinary setting. I see myself as a hardworking team player 
+                that revel in projects. When assigned a task, I commit myself to it and do not quit till I am satisfied with the product. 
+                I am a fast learner and I have confidence in my capabilities.
             </p>
         </div>
     </motion.div>
