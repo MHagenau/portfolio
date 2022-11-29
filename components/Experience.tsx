@@ -17,9 +17,11 @@ function Experience({}: Props) {
         <ExperienceCard imageURL={'./Technologies/frb.svg'}
                       featureTitle={'Frederiksberg Forsyning A/S'}
                       featureSubTitle={'Data Scientist'}
-                      featureDescription={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                      aliquip ex ea commodo consequat.`}
+                      featureDescription={
+                        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+                      }
                       avatars={['./Technologies/postgresql.svg',
                                 './Technologies/azure.svg',
                                 './Technologies/grafana.svg',
@@ -28,9 +30,11 @@ function Experience({}: Props) {
         <ExperienceCard imageURL={'./Technologies/ens.svg'}
                       featureTitle={'Danish Energy Agency'}
                       featureSubTitle={'Advicor'}
-                      featureDescription={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                      aliquip ex ea commodo consequat.`}
+                      featureDescription={
+                        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat.`
+                      }
                       avatars={['./Technologies/docker.svg',
                                 './Technologies/kubernetes.svg',
                                 './Technologies/flask.svg',

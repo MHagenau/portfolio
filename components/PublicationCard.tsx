@@ -7,13 +7,16 @@ type Props = {
     publicationDesc: string
     currPublications: string
     link: string
+    authors: string
 }
 
-function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPublications, link}: Props) {
+function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPublications, link, authors}: Props) {
   const totalPublications = 4
   return (
     <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
                     items-center justify-center p-20 md:p-44 h-screen'> 
+        
+        {/*
         <a href={link} target={"_blank"} rel="noreferrer">
             <motion.img
                 initial={{ y: -200 }}
@@ -25,7 +28,7 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
                 alt=''
             />
         </a>
-
+        */}
         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-4xl font-semibold text-center'>
                 <span className='underline decoration-[#FFE787]/80'>
@@ -37,6 +40,10 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
             </p>
             <p className='text-lg text-center md:text-left'>
                 {publicationDesc}
+            </p>
+            <p className='text-sm text-right italic'>
+                Authors: <br/>
+                {authors}
             </p>
         </div>
     </div>

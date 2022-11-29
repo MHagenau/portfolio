@@ -26,9 +26,9 @@ function About({}: Props) {
         whileInView={{ 
             opacity: 1, x:0
         }}
-        src=''
+        src='./Technologies/avatar.png'
         className='-mb-20 md:mb-0 flex-shrink-0 w-60 h-60 rounded-full object-scale-down
-                   md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'/>
+                   md:rounded-full md:w-95 md:h-95 xl:w-[500px] xl:h-[600px]'/>
 
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'> Morten <span className='underline decoration-[#FFE787]/50'>Hagenau</span></h4>

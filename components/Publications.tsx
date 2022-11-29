@@ -17,7 +17,7 @@ function Publications({}: Props) {
             Publications
         </h3>
 
-        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x
+        <div className='relative w-90% flex overflow-x-scroll overflow-y-hidden snap-x
                         snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 
                         scrollbar-thumb-[#FFE787]/80'>
           <PublicationCard 
@@ -35,6 +35,7 @@ function Publications({}: Props) {
             } 
             currPublications={'1'}
             link={'https://doi.org/10.26868/25222708.2021.30266'}
+            authors={'Morten Hagenau, Muhyiddine Jradi'}
           />
 
           <PublicationCard 
@@ -50,7 +51,8 @@ function Publications({}: Props) {
               deserunt mollit anim id est laborum.`
             } 
             currPublications={'2'}
-            link={'https://doi.org/10.26868/25222708.2021.30266'}
+            link={'https://www.researchgate.net/publication/342708821_Optimization_of_Energy_Flexibility_in_Cooling_Process_for_Brewery_Fermentation_with_Multi-Agent_Simulation'}
+            authors={'Daniel Anthony Howard, Zheng Grace Ma, Jacob Alstrup Engvang, Morten Hagenau, Kathrine Lau Jorgensen, Jonas Fausing Olesen, Bo Nørregaard Jørgensen'}
           />
 
           <PublicationCard 
@@ -68,6 +70,7 @@ function Publications({}: Props) {
             } 
             currPublications={'3'}
             link={'https://doi.org/10.1016/j.est.2020.101536'}
+            authors={'Morten Hagenau, Muhyiddine Jradi'}
           />
 
           <PublicationCard 
@@ -82,6 +85,7 @@ function Publications({}: Props) {
             } 
             currPublications={'4'}
             link={'https://doi.org/10.1088/1757-899X/609/7/072057'}
+            authors={'Muhyiddine Jradi, Sandra Andersen, Morten Hagenau'}
           />
         </div>
 
