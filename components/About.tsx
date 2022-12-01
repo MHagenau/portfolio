@@ -35,7 +35,9 @@ function About({}: Props) {
             <p className='text-sm md:text-base xl:text-lg'>
                 An engineer of Energy Technology who thrives in an interdisciplinary setting. I see myself as a hardworking team player 
                 that revel in projects. When assigned a task, I commit myself to it and do not quit till I am satisfied with the product. 
-                I am a fast learner and I have confidence in my capabilities.
+                I am a fast learner and I have confidence in my capabilities. Furthermore, I am particularly curious by nature and carry a passion
+                for technology and a desire to constantly advance my engineering and programming toolbox. I am not intimidated by challenges
+                outside my comfort zone, alternatively I appreciate the opportunity to expand said comfort zone.
             </p>
         </div>
     </motion.div>

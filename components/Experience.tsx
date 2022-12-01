@@ -18,9 +18,10 @@ function Experience({}: Props) {
                       featureTitle={'Frederiksberg Forsyning A/S'}
                       featureSubTitle={'Data Scientist'}
                       featureDescription={
-                        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
+                        `I primarily develop and maintain business intelligence platform of the corporation. This consists of dashboards made in Grafana monitoring
+                        consumption data of district heating, district cooling, water and sewage. The sensor data is remotely collected several times a minute and
+                        saved in a PostgreSQL database with TimescaleDB extsension. This includes automatic alarms and forecasting using machine learning on historical data.
+                        Furthermore, there is a separate PowerBi platform containing reporting not related to live sensor data.`
                       }
                       avatars={['./Technologies/postgresql.svg',
                                 './Technologies/azure.svg',
@@ -31,9 +32,11 @@ function Experience({}: Props) {
                       featureTitle={'Danish Energy Agency'}
                       featureSubTitle={'Advicor'}
                       featureDescription={
-                        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat.`
+                        `I assisted in optimization and digitalization of internal workflows in a department developing and managing support schemes,
+                        with an objective to provide financial enticement to enhance the energy efficiency of residential buildings as well as 
+                        governmental buildings. This includes a substantial chunk of reporting and evaluation of the performance of the support 
+                        schemes to the ministry. This was streamlined using a Mongo database, an intraside containing live reporting and internal 
+                        applications made in Python using the Flask framework. The solution was hosted as Docker container deployed in a Kubernetes cluster.`
                       }
                       avatars={['./Technologies/docker.svg',
                                 './Technologies/kubernetes.svg',
