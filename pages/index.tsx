@@ -13,6 +13,7 @@ const Home: NextPage = () => {
                     scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#FFE787]/80'>
       <Head>
         <title>Morten Hagenau</title>
+        <link rel="shortcut icon" href="/Miscellaneous/avatar.png" />
       </Head>
 
       <Header />

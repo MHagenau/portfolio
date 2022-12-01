@@ -11,7 +11,7 @@ type Props = {
 
 function ExperienceCard({ imageURL, featureTitle, featureSubTitle, featureDescription, avatars }: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[300px] md:w-[400px]
+    <article className='flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[350px] md:w-[400px]
                         xl:w-[600px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
                         transition-opacity duration-200 overflow-hidden'>
         <motion.img 

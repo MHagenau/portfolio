@@ -30,18 +30,18 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
         </a>
         */}
         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-            <h4 className='text-4xl font-semibold text-center'>
+            <h4 className='test-sm md:text-2xl xl:text-4xl font-semibold text-center'>
                 <span className='underline decoration-[#FFE787]/80'>
                     Publication {currPublications} of {totalPublications}:
                 </span>
             </h4>
-            <p className='text-3xl font-semibold text-center'>
+            <p className='text-lg md:text-xl xl:text-3xl font-semibold text-center'>
             <a href={link} target={"_blank"} rel="noreferrer"> {publicationTitle} </a>
             </p>
-            <p className='text-lg text-center md:text-left'>
+            <p className='text-sm md:text-lg text-center md:text-left'>
                 {publicationDesc}
             </p>
-            <p className='text-sm text-right italic'>
+            <p className='text-xs md:text-sm text-right italic'>
                 Authors: <br/>
                 {authors}
             </p>
