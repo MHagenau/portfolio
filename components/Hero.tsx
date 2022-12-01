@@ -13,8 +13,8 @@ const Hero = () => {
       src="./Miscellaneous/avatar.png" 
       alt=""/>
       <div className='z-20'>
-        <h2 className='text-xl uppercase text-[#FFE787] pb-2 tracking-[5px]'>Morten Hagenau</h2>
-        <h1 className='text-2xl lg:text-3xl font-semibold px-10'>
+        <h2 className='text-xl md:text-2xl uppercase text-[#FFE787] pb-2 tracking-[5px]'>Morten Hagenau</h2>
+        <h1 className='text-lg md:text-2xl lg:text-2xl font-semibold px-10'>
           <span>
             <Typewriter
               options={{

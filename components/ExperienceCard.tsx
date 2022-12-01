@@ -28,7 +28,7 @@ function ExperienceCard({ imageURL, featureTitle, featureSubTitle, featureDescri
         viewport={{ 
             once: true
         }}
-        className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-scale-down object-center'
+        className='w-20 h-20 md:w-32 md:h-32 rounded-full xl:w-[200px] xl:h-[200px] object-scale-down object-center'
         src={imageURL}
         alt=""
         />

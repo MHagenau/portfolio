@@ -30,9 +30,9 @@ function About({}: Props) {
         className='-mb-20 md:mb-0 flex-shrink-0 w-60 h-60 rounded-full object-scale-down
                    md:rounded-full md:w-95 md:h-95 xl:rounded-full xl:w-[400px] xl:h-[400px]'/>
 
-        <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'> Morten <span className='underline decoration-[#FFE787]/50'>Hagenau</span></h4>
-            <p className='text-base'>
+        <div className='space-y-8 px-0 md:px-10'>
+            <h4 className='text-2xl md:text-4xl font-semibold'> Morten <span className='underline decoration-[#FFE787]/50'>Hagenau</span></h4>
+            <p className='text-sm md:text-base xl:text-lg'>
                 An engineer of Energy Technology who thrives in an interdisciplinary setting. I see myself as a hardworking team player 
                 that revel in projects. When assigned a task, I commit myself to it and do not quit till I am satisfied with the product. 
                 I am a fast learner and I have confidence in my capabilities.
