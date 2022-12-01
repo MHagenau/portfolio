@@ -28,6 +28,7 @@ function Experience({}: Props) {
                                 './Technologies/azure.svg',
                                 './Technologies/grafana.svg',
                                 './Technologies/powerbi.svg',
+                                './Technologies/python.svg',
                                 './Technologies/pandas.svg']}/>
         <ExperienceCard imageURL={'./Technologies/ens.svg'}
                       featureTitle={'Danish Energy Agency'}
@@ -43,6 +44,7 @@ function Experience({}: Props) {
                                 './Technologies/kubernetes.svg',
                                 './Technologies/flask.svg',
                                 './Technologies/mongodb.svg',
+                                './Technologies/python.svg',
                                 './Technologies/pandas.svg']}/>
       </div>
     </motion.div>
