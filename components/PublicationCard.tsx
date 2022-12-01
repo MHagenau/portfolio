@@ -38,7 +38,7 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
             <p className='text-lg md:text-xl xl:text-3xl font-semibold text-center'>
             <a href={link} target={"_blank"} rel="noreferrer"> {publicationTitle} </a>
             </p>
-            <p className='text-sm md:text-lg text-center md:text-left'>
+            <p className='text-sm md:text-lg text-left'>
                 {publicationDesc}
             </p>
             <p className='text-xs md:text-sm text-right italic'>
