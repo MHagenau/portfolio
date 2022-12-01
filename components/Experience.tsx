@@ -21,7 +21,8 @@ function Experience({}: Props) {
                         `I primarily develop and maintain business intelligence platform of the corporation. This consists of dashboards made in Grafana monitoring
                         consumption data of district heating, district cooling, water and sewage. The sensor data is remotely collected several times a minute and
                         saved in a PostgreSQL database with TimescaleDB extsension. This includes automatic alarms and forecasting using machine learning on historical data.
-                        Furthermore, there is a separate PowerBi platform containing reporting not related to live sensor data.`
+                        Furthermore, there is a separate PowerBi platform containing reporting not related to live sensor data. Upcoming tasks consists of migrating
+                        the entire IT infrastructure from an on premise solution to the could using Azure.`
                       }
                       avatars={['./Technologies/postgresql.svg',
                                 './Technologies/azure.svg',
