@@ -30,13 +30,13 @@ function Contact({}: Props) {
         Contact Me
       </h3>
       
-      <div className='flex flex-col space-y-10'>
+      <div className='flex flex-col space-y-4 md:space-y-10'>
         <h4 className='text-lg md:text-2xl xl:text-4xl font-semibold'> 
             For any sort of inquiries, feel free to {" "}
             <span className='underline decoration-[#FFE787]/50'>get in touch</span>
         </h4>
 
-        <div className='space-y-8'>
+        <div className='space-y-2 md:space-y-8'>
             <div className='flex items-center space-x-5 justify-center'>
                 <PhoneIcon className='text-[#FFE787] h-7 w-7 animate-pulse'/>
                 <p className='text-base md:text-lg xl:text-2xl'>+45 12 34 56 78</p>
@@ -52,10 +52,10 @@ function Contact({}: Props) {
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} 
-              className='flex flex-col space-y-2 w-fit mx-auto'>
+              className='flex flex-col space-y-2 w-80% mx-auto'>
             <div className='flex space-x-2'>
-                <input {...register('name')} placeholder='Name' className='contactInput' type='text'/>
-                <input {...register('email')} placeholder='Email' className='contactInput' type='email'/>
+                <input {...register('name')} placeholder='Name' className='contactInput w-80%' type='text'/>
+                <input {...register('email')} placeholder='Email' className='contactInput w-80%' type='email'/>
             </div>
             <input {...register('subject')} placeholder='Subject' className='contactInput' type='text'/>
             <textarea {...register('message')} placeholder='Message' className='contactInput' />
