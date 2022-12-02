@@ -42,6 +42,10 @@ export default function Header({}: Props) {
                 <button className='heroButton'>Publications</button>
             </Link>
 
+            <Link href="/#contact">
+                <button className='heroButton'>Contact</button>
+            </Link>
+
         </motion.div>
     </header>
   )

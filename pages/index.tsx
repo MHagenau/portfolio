@@ -4,8 +4,8 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Experience from '../components/Experience';
-import Highscores from '../components/Highscores';
 import Publications from '../components/Publications';
+import Contact from '../components/Contact';
 
 const Home: NextPage = () => {
   return (
@@ -34,11 +34,11 @@ const Home: NextPage = () => {
         <Publications />
       </section>
 
-      {/* 
-      <section id="virtual-highscore" className='snap-start'>
-        <Highscores />
+
+      <section id="contact" className='snap-start'>
+        <Contact />
       </section>
-      */}
+
       
     </div>
   );
