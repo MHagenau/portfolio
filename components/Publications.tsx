@@ -13,7 +13,7 @@ function Publications({}: Props) {
       transition={{ duration: 1.5 }}
       className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row
                  max-w-full justify-evenly mx-auto items-center z-0'>
-        <h3 className='absolute top-24 uppercase tracking-[10px] text-[#FFE787] text-2xl'>
+        <h3 className='absolute top-12 uppercase tracking-[10px] text-[#FFE787] text-2xl'>
             Publications
         </h3>
 
@@ -73,9 +73,7 @@ function Publications({}: Props) {
               envelope enhanced with phase change material under Danish conditions`
             } 
             publicationDesc={
-              `Alongside active energy improvements dealing with energy supply systems and building devices and services, passive 
-              techniques targeting enhancing the building envelope are demonstrated as viable options to improve the overall 
-              building performance. In this study, a holistic investigation of integrating phase change materials within the building 
+              `In this study, a holistic investigation of integrating phase change materials within the building 
               envelope is presented aiming to improve indoor thermal comfort and reduce energy consumption. Thus, dynamic energy 
               modeling and performance evaluation of building envelope enhanced with phase change materials under Danish conditions 
               is carried out. A standard Danish office is considered as a case study where a systematic screening of 17 PCMs is 

@@ -11,7 +11,7 @@ function About({}: Props) {
         transition={{duration: 1.5}}
         className='flex flex-col relative h-screen text-center md:text-left md:flex-row 
                    max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase tracking-[10px] text-[#FFE787] text-2xl'>
+        <h3 className='absolute top-12 md:top-24 uppercase tracking-[10px] text-[#FFE787] text-2xl'>
             About
         </h3>
 
@@ -27,10 +27,10 @@ function About({}: Props) {
             opacity: 1, x:0
         }}
         src='./Miscellaneous/avatar.png'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-60 h-60 rounded-full object-scale-down
-                   md:rounded-full md:w-95 md:h-95 xl:rounded-full xl:w-[400px] xl:h-[400px]'/>
+        className='-mb-20 md:mb-0 flex-shrink-0 w-20 h-20 rounded-full object-scale-down
+                   md:rounded-full md:w-60 md:h-60 xl:rounded-full xl:w-[400px] xl:h-[400px]'/>
 
-        <div className='space-y-8 px-0 md:px-10'>
+        <div className='space-y-3 px-0 md:px-10'>
             <h4 className='text-2xl md:text-4xl font-semibold'> Morten <span className='underline decoration-[#FFE787]/50'>Hagenau</span></h4>
             <p className='text-sm md:text-base xl:text-lg'>
                 An engineer of Energy Technology who thrives in an interdisciplinary setting. I see myself as a hardworking team player 

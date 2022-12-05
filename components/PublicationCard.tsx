@@ -14,7 +14,7 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
   const totalPublications = 4
   return (
     <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
-                    items-center justify-center p-20 md:p-44 h-screen'> 
+                    items-center justify-center p-6 md:p-44 h-screen'> 
         
         {/*
         <a href={link} target={"_blank"} rel="noreferrer">
@@ -29,13 +29,13 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
             />
         </a>
         */}
-        <div className='space-y-4 md:space-y-7 xl:space-y-10 px-0 md:px-10 max-w-4xl'>
+        <div className='space-y-2 md:space-y-7 xl:space-y-10 px-0 md:px-10 max-w-4xl'>
             <h4 className='test-sm md:text-2xl xl:text-3xl font-semibold text-center'>
                 <span className='underline decoration-[#FFE787]/80'>
                     Publication {currPublications} of {totalPublications}:
                 </span>
             </h4>
-            <p className='text-sm md:text-lg xl:text-2xl font-semibold text-center'>
+            <p className='text-xs md:text-lg xl:text-2xl font-semibold text-center'>
             <a href={link} target={"_blank"} rel="noreferrer"> {publicationTitle} </a>
             </p>
             <p className='text-xs md:text-sm xl:text-base  text-left'>
