@@ -14,21 +14,9 @@ function ExperienceCard({ imageURL, featureTitle, featureSubTitle, featureDescri
     <article className='flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[300px] h-[500px] md:w-[500px] md:h-[550px]
                         xl:w-[600px] xl:h-[700px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
                         transition-opacity duration-200 overflow-hidden'>
-        <motion.img 
-        initial={{
-            y: -100,
-            opacity: 0,
-        }}
-        transition={{ 
-            duration: 1.2 
-        }}
-        whileInView={{ 
-            opacity: 1, y: 0
-        }}
-        viewport={{ 
-            once: true
-        }}
-        className='w-20 h-20 md:w-32 md:h-32 rounded-full xl:w-[200px] xl:h-[200px] object-scale-down object-center'
+        <img 
+
+        className='w-24 h-24 md:w-32 md:h-32 xl:w-[200px] xl:h-[200px] object-scale-down object-center'
         src={imageURL}
         alt=""
         />

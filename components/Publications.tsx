@@ -13,7 +13,7 @@ function Publications({}: Props) {
       transition={{ duration: 1.5 }}
       className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row
                  max-w-full justify-evenly mx-auto items-center z-0'>
-        <h3 className='absolute top-12 uppercase tracking-[10px] text-[#FFE787] text-2xl'>
+        <h3 className='absolute top-16 md:top-24 uppercase tracking-[10px] text-[#FFE787] text-2xl'>
             Publications
         </h3>
 
@@ -116,7 +116,7 @@ function Publications({}: Props) {
           />
         </div>
 
-        <div className='w-full absolute top-[30%] bg-[#FFE787]/10 left-0 h-[500px] 
+        <div className='w-full absolute md:top-[30%] bg-[#FFE787]/10 left-0 h-[350px] md:h-[500px]
                         -skew-y-12'/>
     </motion.div>
   )

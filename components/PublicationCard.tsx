@@ -14,7 +14,7 @@ function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPubl
   const totalPublications = 4
   return (
     <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
-                    items-center justify-center p-6 md:p-44 h-screen'> 
+                    items-center justify-center p-8 md:p-44 h-screen'> 
         
         {/*
         <a href={link} target={"_blank"} rel="noreferrer">
