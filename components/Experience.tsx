@@ -14,7 +14,7 @@ function Experience({}: Props) {
 
       <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory
                       scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#FFE787]/80'>
-        <ExperienceCard imageURL={'./Technologies/frb.svg'}
+        <ExperienceCard imageURL={'./Miscellaneous/frb.svg'}
                       featureTitle={'Frederiksberg Forsyning A/S'}
                       featureSubTitle={'Data Scientist'}
                       featureDescription={
@@ -30,7 +30,7 @@ function Experience({}: Props) {
                                 './Technologies/powerbi.svg',
                                 './Technologies/python.svg',
                                 './Technologies/pandas.svg']}/>
-        <ExperienceCard imageURL={'./Technologies/ens.svg'}
+        <ExperienceCard imageURL={'./Miscellaneous/ens.svg'}
                       featureTitle={'Danish Energy Agency'}
                       featureSubTitle={'Advicor'}
                       featureDescription={
