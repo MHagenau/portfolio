@@ -16,13 +16,13 @@ function ExperienceCard({ imageURL, featureTitle, featureSubTitle, featureDescri
                         transition-opacity duration-200 overflow-hidden'>
         <img 
 
-        className='w-24 h-24 md:w-32 md:h-32 xl:w-[200px] xl:h-[200px] object-scale-down object-center'
+        className='h-[40px] md:h-[50px] xl:h-[80px] object-center'
         src={imageURL}
         alt=""
         />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text:lg md:text-xl xl:text-3xl font-light'>{featureTitle}</h4>
+            <h4 className='text:lg md:text-xl xl:text-3xl font-light md:pt-2 xl:pt-5'>{featureTitle}</h4>
             <h4 className='text:base md:text-xl xl:text-3xl font-light text-[#FFE787]'>{featureSubTitle}</h4>
             <div className='flex space-x-2 my-2'>
 
