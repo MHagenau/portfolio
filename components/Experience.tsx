@@ -32,7 +32,7 @@ function Experience({}: Props) {
                                 './Technologies/pandas.svg']}/>
         <ExperienceCard imageURL={'./Miscellaneous/ens.svg'}
                       featureTitle={'Danish Energy Agency'}
-                      featureSubTitle={'Advicor'}
+                      featureSubTitle={'Advisor'}
                       featureDescription={
                         `I assisted in optimization and digitalization of internal workflows in a department developing and managing support schemes,
                         with an objective to provide financial enticement to enhance the energy efficiency of residential buildings as well as 
