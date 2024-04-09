@@ -11,7 +11,7 @@ type Props = {
 }
 
 function PublicationCard({ imageURL, publicationTitle, publicationDesc, currPublications, link, authors}: Props) {
-  const totalPublications = 4
+  const totalPublications = 5
   return (
     <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
                     items-center justify-center p-8 md:p-44 h-screen'> 
