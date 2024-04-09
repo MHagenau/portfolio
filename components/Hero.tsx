@@ -19,12 +19,12 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: ['Engineer in Energy Technology with passion for data science', 
-                          'Currently working with energy consumption data', 
-                          'Sectretly enjoys front-end development ...'],
+                          'Thrives in making data come to live and assist in decision making',
+                          'Currently working with energy consumption data and IoT solutions'],
                 autoStart: true,
                 loop: true,
-                delay: 50,
-                deleteSpeed: 20,
+                delay: 45,
+                deleteSpeed: 25,
               }}
             />
           </span>

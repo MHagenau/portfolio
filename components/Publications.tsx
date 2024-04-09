@@ -43,6 +43,29 @@ function Publications({}: Props) {
           <PublicationCard 
             imageURL={'./Technologies/brew_tanks.png'} 
             publicationTitle={
+              `Energy Flexibility Potential in the Brewery Sector: A Multi-agent Based Simulation of 239 Danish Breweries`
+            } 
+            publicationDesc={
+              `The beverage industry is a typical food processing industry, accounts for significant energy consumption, and 
+              has flexible demands. However, the deployment of energy flexibility in the beverage industry is complex and 
+              challenging. Furthermore, activation of energy flexibility from the whole brewery industry is necessary to 
+              ensure grid stability. Therefore, this paper assesses the energy flexibility potential of Denmark's brewery 
+              sector based on a multi-agent-based simulation. 239 individual brewery facilities are simulated, and each 
+              facility, as an agent, can interact with the energy system market and make decisions based on its underlying 
+              parameters and operational restrictions. The results show that the Danish breweries could save 1.56 % of 
+              electricity costs annually while maintaining operational security and reducing approximately 1745 tonnes of 
+              CO2 emissions. Furthermore, medium-size breweries could obtain higher relative benefits by providing energy 
+              flexibility, especially those producing lager and ale. The result also shows that the breweries' relative 
+              saving potential is electricity market-dependent.`
+            } 
+            currPublications={'2'}
+            link={'https://www.researchgate.net/publication/342708821_Optimization_of_Energy_Flexibility_in_Cooling_Process_for_Brewery_Fermentation_with_Multi-Agent_Simulation'}
+            authors={'Daniel Anthony Howard, Zheng Grace Ma, Jacob Alstrup Engvang, Morten Hagenau, Kathrine Lau Jorgensen, Jonas Fausing Olesen, Bo Nørregaard Jørgensen'}
+          />
+
+          <PublicationCard 
+            imageURL={'./Technologies/brew_tanks.png'} 
+            publicationTitle={
               `Agent-based Assessment of Energy Flexibility Potential in the Danish Brewery Industry`
             } 
             publicationDesc={
@@ -61,8 +84,8 @@ function Publications({}: Props) {
               contributes to the decision making of industries regarding the future optimization of energy flexibility 
               in industrial processes.`
             } 
-            currPublications={'2'}
-            link={'https://www.researchgate.net/publication/342708821_Optimization_of_Energy_Flexibility_in_Cooling_Process_for_Brewery_Fermentation_with_Multi-Agent_Simulation'}
+            currPublications={'3'}
+            link={'https://doi.org/10.1109/APPEEC53445.2022.10072200'}
             authors={'Daniel Anthony Howard, Zheng Grace Ma, Jacob Alstrup Engvang, Morten Hagenau, Kathrine Lau Jorgensen, Jonas Fausing Olesen, Bo Nørregaard Jørgensen'}
           />
 
@@ -88,7 +111,7 @@ function Publications({}: Props) {
               It is shown that the building insulation level, room cooling and heating set-points, as well as the ambient weather conditions 
               have a large impact on identifying the best performing PCM for Danish buildings.`
             } 
-            currPublications={'3'}
+            currPublications={'4'}
             link={'https://doi.org/10.1016/j.est.2020.101536'}
             authors={'Morten Hagenau, Muhyiddine Jradi'}
           />
@@ -110,7 +133,7 @@ function Publications({}: Props) {
               office buildings. The tool implementation is demonstrated in the paper by considering 3 Danish case studies and reporting 
               the renovation design and assessment results regarding energy consumption and indoor air quality.`
             } 
-            currPublications={'4'}
+            currPublications={'5'}
             link={'https://doi.org/10.1088/1757-899X/609/7/072057'}
             authors={'Muhyiddine Jradi, Sandra Andersen, Morten Hagenau'}
           />
